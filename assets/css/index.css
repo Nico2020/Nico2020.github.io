@@ -1,0 +1,32 @@
+#slider-container{
+text-align: center;
+  padding-top: 80px;
+}
+
+#arrow-left,#arrow-right{
+margin-top: 120px;
+width: 30px;
+left: 30px;
+}
+
+#slider{
+width: 600px;
+height: 150px
+}
+#text-content h1{
+  text-align: center ;
+  padding-top: 20px  ;
+}
+#text-content p{
+  text-align: justify;
+  padding-left: 50px ;
+  padding-right:  50px ;
+}
+.galeria-img{
+width: 100% ;
+height:120px;
+transition:all .2s ease-in-out;
+}
+#galeria img:hover{
+transform: scale(1.1);
+}
